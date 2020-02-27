@@ -1,0 +1,18 @@
+.posOnBoard{
+    border-collapse: collapse;
+    border: 1px solid;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+
+}
+table{
+    margin: auto;
+    width: 200px;
+}
+.optionGame{
+    text-align: center;
+}
+.scoreBoard{
+    text-align: center;
+}

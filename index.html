@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/this.js" defer></script>
+    <link rel="stylesheet" href="css/this.css">
+</head>
+<body onload=showBoard()>
+    <div id="container">
+        <div class="scoreBoard">
+            TIC TAC TOE
+        </div>
+        <div class="mainGame">
+            <table>
+                <tr>
+                    <td id="pos00" class="posOnBoard" onclick="changeIcon(this.id)"></td>
+                    <td id="pos01" class="posOnBoard" onclick="changeIcon(this.id)"></td>
+                    <td id="pos02" class="posOnBoard" onclick="changeIcon(this.id)"></td>
+                </tr>
+                <tr>
+                    <td id="pos10" class="posOnBoard" onclick="changeIcon(this.id)"></td>
+                    <td id="pos11" class="posOnBoard" onclick="changeIcon(this.id)"></td>
+                    <td id="pos12" class="posOnBoard" onclick="changeIcon(this.id)"></td>
+                </tr>
+                <tr>
+                    <td id="pos20" class="posOnBoard" onclick="changeIcon(this.id)"></td>
+                    <td id="pos21" class="posOnBoard" onclick="changeIcon(this.id)"></td>
+                    <td id="pos22" class="posOnBoard" onclick="changeIcon(this.id)"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="optionGame">
+            <button id="btnRestart" onclick="resetGame()">Restart Game</button>
+        </div>
+    </div>
+</body>
+</html>
